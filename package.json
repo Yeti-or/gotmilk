@@ -1,0 +1,30 @@
+{
+  "name": "gotmilk",
+  "version": "0.0.0",
+  "description": "got paginator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yeti-or/gotmilk.git"
+  },
+  "keywords": [
+    "got",
+    "page",
+    "link",
+    "paginator",
+    "milk"
+  ],
+  "author": "Vasiliy Loginevskiy <yeti.or@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yeti-or/gotmilk/issues"
+  },
+  "homepage": "https://github.com/Yeti-or/gotmilk#readme",
+  "dependencies": {
+    "got": "^7.1.0",
+    "parse-link-header": "^1.0.1"
+  }
+}
