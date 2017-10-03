@@ -11,7 +11,7 @@ module.exports = function(url, series, opts) {
         function gotMilk(url) {
 
             got(url, {
-                json: true
+                json: true,
                 ...opts
             }).then(res => {
                 const link = parseLink(res.headers.link);
